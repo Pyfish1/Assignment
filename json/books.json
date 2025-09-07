@@ -1,0 +1,335 @@
+[
+    {
+        "book_id": "B001",
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "isbn": "9780061120084",
+        "quantity": 6,
+        "quantity_borrowed": 1,
+        "borrowers": [
+            {
+                "borrower_id": "U001",
+                "due_date": "2025-09-20"
+            }
+        ]
+    },
+    {
+        "book_id": "B002",
+        "title": "1984",
+        "author": "George Orwell",
+        "isbn": "9780451524935",
+        "quantity": 4,
+        "quantity_borrowed": 1,
+        "borrowers": [
+            {
+                "borrower_id": "U003",
+                "due_date": "2025-09-18"
+            }
+        ]
+    },
+    {
+        "book_id": "B003",
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "isbn": "9780141439518",
+        "quantity": 6,
+        "quantity_borrowed": 3,
+        "borrowers": [
+            {
+                "borrower_id": "U004",
+                "due_date": "2025-09-21"
+            },
+            {
+                "borrower_id": "U005",
+                "due_date": "2025-09-23"
+            },
+            {
+                "borrower_id": "U006",
+                "due_date": "2025-09-26"
+            }
+        ]
+    },
+    {
+        "book_id": "B004",
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "9780743273565",
+        "quantity": 7,
+        "quantity_borrowed": 2,
+        "borrowers": [
+            {
+                "borrower_id": "U007",
+                "due_date": "2025-09-19"
+            },
+            {
+                "borrower_id": "U008",
+                "due_date": "2025-09-28"
+            }
+        ]
+    },
+    {
+        "book_id": "B005",
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "isbn": "9781503280786",
+        "quantity": 3,
+        "quantity_borrowed": 0,
+        "borrowers": []
+    },
+    {
+        "book_id": "B006",
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "isbn": "9780199232765",
+        "quantity": 4,
+        "quantity_borrowed": 2,
+        "borrowers": [
+            {
+                "borrower_id": "U009",
+                "due_date": "2025-09-24"
+            },
+            {
+                "borrower_id": "U010",
+                "due_date": "2025-09-29"
+            }
+        ]
+    },
+    {
+        "book_id": "B007",
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "isbn": "9780316769488",
+        "quantity": 5,
+        "quantity_borrowed": 1,
+        "borrowers": [
+            {
+                "borrower_id": "U011",
+                "due_date": "2025-09-17"
+            }
+        ]
+    },
+    {
+        "book_id": "B008",
+        "title": "The Hobbit",
+        "author": "J.R.R. Tolkien",
+        "isbn": "9780261103344",
+        "quantity": 8,
+        "quantity_borrowed": 4,
+        "borrowers": [
+            {
+                "borrower_id": "U012",
+                "due_date": "2025-09-20"
+            },
+            {
+                "borrower_id": "U013",
+                "due_date": "2025-09-22"
+            },
+            {
+                "borrower_id": "U014",
+                "due_date": "2025-09-25"
+            },
+            {
+                "borrower_id": "U015",
+                "due_date": "2025-09-27"
+            }
+        ]
+    },
+    {
+        "book_id": "B009",
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "isbn": "9780060850524",
+        "quantity": 6,
+        "quantity_borrowed": 2,
+        "borrowers": [
+            {
+                "borrower_id": "U016",
+                "due_date": "2025-09-19"
+            },
+            {
+                "borrower_id": "U017",
+                "due_date": "2025-09-21"
+            }
+        ]
+    },
+    {
+        "book_id": "B010",
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "isbn": "9780140449136",
+        "quantity": 5,
+        "quantity_borrowed": 1,
+        "borrowers": [
+            {
+                "borrower_id": "U018",
+                "due_date": "2025-09-23"
+            }
+        ]
+    },
+    {
+        "book_id": "B011",
+        "title": "The Odyssey",
+        "author": "Homer",
+        "isbn": "9780140268867",
+        "quantity": 4,
+        "quantity_borrowed": 2,
+        "borrowers": [
+            {
+                "borrower_id": "U019",
+                "due_date": "2025-09-20"
+            },
+            {
+                "borrower_id": "U020",
+                "due_date": "2025-09-26"
+            }
+        ]
+    },
+    {
+        "book_id": "B012",
+        "title": "Frankenstein",
+        "author": "Mary Shelley",
+        "isbn": "9780486282114",
+        "quantity": 6,
+        "quantity_borrowed": 3,
+        "borrowers": [
+            {
+                "borrower_id": "U021",
+                "due_date": "2025-09-18"
+            },
+            {
+                "borrower_id": "U022",
+                "due_date": "2025-09-24"
+            },
+            {
+                "borrower_id": "U023",
+                "due_date": "2025-09-29"
+            }
+        ]
+    },
+    {
+        "book_id": "B013",
+        "title": "Jane Eyre",
+        "author": "Charlotte Bront",
+        "isbn": "9780141441146",
+        "quantity": 7,
+        "quantity_borrowed": 2,
+        "borrowers": [
+            {
+                "borrower_id": "U024",
+                "due_date": "2025-09-22"
+            },
+            {
+                "borrower_id": "U025",
+                "due_date": "2025-09-27"
+            }
+        ]
+    },
+    {
+        "book_id": "B014",
+        "title": "Wuthering Heights",
+        "author": "Emily Bront",
+        "isbn": "9780141439556",
+        "quantity": 5,
+        "quantity_borrowed": 1,
+        "borrowers": [
+            {
+                "borrower_id": "U026",
+                "due_date": "2025-09-21"
+            }
+        ]
+    },
+    {
+        "book_id": "B015",
+        "title": "Animal Farm",
+        "author": "George Orwell",
+        "isbn": "9780451526342",
+        "quantity": 8,
+        "quantity_borrowed": 5,
+        "borrowers": [
+            {
+                "borrower_id": "U027",
+                "due_date": "2025-09-20"
+            },
+            {
+                "borrower_id": "U028",
+                "due_date": "2025-09-23"
+            },
+            {
+                "borrower_id": "U029",
+                "due_date": "2025-09-25"
+            },
+            {
+                "borrower_id": "U030",
+                "due_date": "2025-09-27"
+            },
+            {
+                "borrower_id": "U031",
+                "due_date": "2025-09-28"
+            }
+        ]
+    },
+    {
+        "book_id": "B016",
+        "title": "Les Mis Rables",
+        "author": "Victor Hugo",
+        "isbn": "9780451419439",
+        "quantity": 4,
+        "quantity_borrowed": 2,
+        "borrowers": [
+            {
+                "borrower_id": "U032",
+                "due_date": "2025-09-21"
+            },
+            {
+                "borrower_id": "U033",
+                "due_date": "2025-09-26"
+            }
+        ]
+    },
+    {
+        "book_id": "B017",
+        "title": "The Picture of Dorian Gray",
+        "author": "Oscar Wilde",
+        "isbn": "9780141439570",
+        "quantity": 6,
+        "quantity_borrowed": 1,
+        "borrowers": [
+            {
+                "borrower_id": "U034",
+                "due_date": "2025-09-19"
+            }
+        ]
+    },
+    {
+        "book_id": "B018",
+        "title": "The Brothers Karamazov",
+        "author": "Fyodor Dostoevsky",
+        "isbn": "9780374528379",
+        "quantity": 3,
+        "quantity_borrowed": 1,
+        "borrowers": [
+            {
+                "borrower_id": "U035",
+                "due_date": "2025-09-22"
+            }
+        ]
+    },
+    {
+        "book_id": "B019",
+        "title": "Dracula",
+        "author": "Bram Stoker",
+        "isbn": "9780486411095",
+        "quantity": 6,
+        "quantity_borrowed": 2,
+        "borrowers": [
+            {
+                "borrower_id": "U036",
+                "due_date": "2025-09-24"
+            },
+            {
+                "borrower_id": "U037",
+                "due_date": "2025-09-28"
+            }
+        ]
+    }
+]

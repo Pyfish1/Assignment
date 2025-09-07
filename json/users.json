@@ -1,0 +1,370 @@
+[
+    {
+        "user_id": "U001",
+        "name": "Ivan Ho",
+        "email": "admin",
+        "borrowed_books": [
+            "B001"
+        ],
+        "password": "admin",
+        "admin": true
+    },
+    {
+        "user_id": "U002",
+        "name": "Ian Aloysius David",
+        "email": "user",
+        "borrowed_books": [],
+        "password": "user",
+        "admin": false
+    },
+    {
+        "user_id": "U003",
+        "name": "Brian Lee",
+        "email": "brian.lee@email.com",
+        "borrowed_books": [
+            "B002"
+        ],
+        "password": "J2m8rXc5",
+        "admin": true
+    },
+    {
+        "user_id": "U004",
+        "name": "Cynthia Lim",
+        "email": "cynthia.lim@email.com",
+        "borrowed_books": [
+            "B003"
+        ],
+        "password": "L6n3vBz7",
+        "admin": false
+    },
+    {
+        "user_id": "U005",
+        "name": "David Tan",
+        "email": "david.tan@email.com",
+        "borrowed_books": [
+            "B003"
+        ],
+        "password": "P5q1tYw2",
+        "admin": false
+    },
+    {
+        "user_id": "U006",
+        "name": "Emily Ng",
+        "email": "emily.ng@email.com",
+        "borrowed_books": [
+            "B003"
+        ],
+        "password": "S9d2kLm4",
+        "admin": false
+    },
+    {
+        "user_id": "U007",
+        "name": "Farah Ahmad",
+        "email": "farah.ahmad@email.com",
+        "borrowed_books": [
+            "B004"
+        ],
+        "password": "V3b7nQp6",
+        "admin": false
+    },
+    {
+        "user_id": "U008",
+        "name": "Jason Chua",
+        "email": "jason.chua@email.com",
+        "borrowed_books": [
+            "B004"
+        ],
+        "password": "M8w5zRt2",
+        "admin": false
+    },
+    {
+        "user_id": "U009",
+        "name": "Grace Tan",
+        "email": "grace.tan@email.com",
+        "borrowed_books": [
+            "B006"
+        ],
+        "password": "F4x9cJv1",
+        "admin": false
+    },
+    {
+        "user_id": "U010",
+        "name": "Henry Lee",
+        "email": "henry.lee@email.com",
+        "borrowed_books": [
+            "B006"
+        ],
+        "password": "K2l7mNp3",
+        "admin": false
+    },
+    {
+        "user_id": "U011",
+        "name": "Isabelle Goh",
+        "email": "isabelle.goh@email.com",
+        "borrowed_books": [
+            "B007"
+        ],
+        "password": "R6t1pQw8",
+        "admin": false
+    },
+    {
+        "user_id": "U012",
+        "name": "Johnathan Lim",
+        "email": "john.lim@email.com",
+        "borrowed_books": [
+            "B008"
+        ],
+        "password": "B7v3kLm2",
+        "admin": false
+    },
+    {
+        "user_id": "U013",
+        "name": "Kelly Ong",
+        "email": "kelly.ong@email.com",
+        "borrowed_books": [
+            "B008"
+        ],
+        "password": "N5q8wZr4",
+        "admin": false
+    },
+    {
+        "user_id": "U014",
+        "name": "Leonard Ho",
+        "email": "leonard.ho@email.com",
+        "borrowed_books": [
+            "B008"
+        ],
+        "password": "C1m6xVb9",
+        "admin": false
+    },
+    {
+        "user_id": "U015",
+        "name": "Michelle Tan",
+        "email": "michelle.tan@email.com",
+        "borrowed_books": [
+            "B008"
+        ],
+        "password": "G3p2sQw7",
+        "admin": false
+    },
+    {
+        "user_id": "U016",
+        "name": "Noah Wong",
+        "email": "noah.wong@email.com",
+        "borrowed_books": [
+            "B009"
+        ],
+        "password": "D8k4nLm1",
+        "admin": false
+    },
+    {
+        "user_id": "U017",
+        "name": "Olivia Tan",
+        "email": "olivia.tan@email.com",
+        "borrowed_books": [
+            "B009"
+        ],
+        "password": "H2v7bQp5",
+        "admin": false
+    },
+    {
+        "user_id": "U018",
+        "name": "Peter Ng",
+        "email": "peter.ng@email.com",
+        "borrowed_books": [
+            "B010"
+        ],
+        "password": "E9w3zRt6",
+        "admin": false
+    },
+    {
+        "user_id": "U019",
+        "name": "Queenie Lau",
+        "email": "queenie.lau@email.com",
+        "borrowed_books": [
+            "B011"
+        ],
+        "password": "A4x1cJv8",
+        "admin": false
+    },
+    {
+        "user_id": "U020",
+        "name": "Raymond Koh",
+        "email": "raymond.koh@email.com",
+        "borrowed_books": [
+            "B011"
+        ],
+        "password": "U7l2mNp9",
+        "admin": false
+    },
+    {
+        "user_id": "U021",
+        "name": "Samantha Lee",
+        "email": "samantha.lee@email.com",
+        "borrowed_books": [
+            "B012"
+        ],
+        "password": "I5t8pQw3",
+        "admin": false
+    },
+    {
+        "user_id": "U022",
+        "name": "Thomas Wong",
+        "email": "thomas.wong@email.com",
+        "borrowed_books": [
+            "B012"
+        ],
+        "password": "O6v1kLm7",
+        "admin": false
+    },
+    {
+        "user_id": "U023",
+        "name": "Uma Devi",
+        "email": "uma.devi@email.com",
+        "borrowed_books": [
+            "B012"
+        ],
+        "password": "Z3q2wZr5",
+        "admin": false
+    },
+    {
+        "user_id": "U024",
+        "name": "Victor Lim",
+        "email": "victor.lim@email.com",
+        "borrowed_books": [
+            "B013"
+        ],
+        "password": "Y9m6xVb2",
+        "admin": false
+    },
+    {
+        "user_id": "U025",
+        "name": "Wendy Tan",
+        "email": "wendy.tan@email.com",
+        "borrowed_books": [
+            "B013"
+        ],
+        "password": "X1p3sQw6",
+        "admin": false
+    },
+    {
+        "user_id": "U026",
+        "name": "Xavier Ng",
+        "email": "xavier.ng@email.com",
+        "borrowed_books": [
+            "B014"
+        ],
+        "password": "W8k4nLm3",
+        "admin": false
+    },
+    {
+        "user_id": "U027",
+        "name": "Yasmin Ooi",
+        "email": "yasmin.ooi@email.com",
+        "borrowed_books": [
+            "B015"
+        ],
+        "password": "S2v7bQp4",
+        "admin": false
+    },
+    {
+        "user_id": "U028",
+        "name": "Zachary Chia",
+        "email": "zachary.chia@email.com",
+        "borrowed_books": [
+            "B015"
+        ],
+        "password": "T5w3zRt9",
+        "admin": false
+    },
+    {
+        "user_id": "U029",
+        "name": "Aaron Lee",
+        "email": "aaron.lee@email.com",
+        "borrowed_books": [
+            "B015"
+        ],
+        "password": "V6x1cJv2",
+        "admin": false
+    },
+    {
+        "user_id": "U030",
+        "name": "Bella Tan",
+        "email": "bella.tan@email.com",
+        "borrowed_books": [
+            "B015"
+        ],
+        "password": "M7l2mNp8",
+        "admin": false
+    },
+    {
+        "user_id": "U031",
+        "name": "Calvin Ong",
+        "email": "calvin.ong@email.com",
+        "borrowed_books": [
+            "B015"
+        ],
+        "password": "F3t8pQw1",
+        "admin": false
+    },
+    {
+        "user_id": "U032",
+        "name": "Diana Lim",
+        "email": "diana.lim@email.com",
+        "borrowed_books": [
+            "B016"
+        ],
+        "password": "J9v1kLm6",
+        "admin": false
+    },
+    {
+        "user_id": "U033",
+        "name": "Ethan Goh",
+        "email": "ethan.goh@email.com",
+        "borrowed_books": [
+            "B016"
+        ],
+        "password": "N2q7wZr3",
+        "admin": false
+    },
+    {
+        "user_id": "U034",
+        "name": "Fiona Tan",
+        "email": "fiona.tan@email.com",
+        "borrowed_books": [
+            "B017"
+        ],
+        "password": "C5m6xVb1",
+        "admin": false
+    },
+    {
+        "user_id": "U035",
+        "name": "George Lim",
+        "email": "george.lim@email.com",
+        "borrowed_books": [
+            "B018"
+        ],
+        "password": "G8p2sQw9",
+        "admin": false
+    },
+    {
+        "user_id": "U036",
+        "name": "Hannah Wong",
+        "email": "hannah.wong@email.com",
+        "borrowed_books": [
+            "B019"
+        ],
+        "password": "D1k4nLm7",
+        "admin": false
+    },
+    {
+        "user_id": "U037",
+        "name": "Ian Lee",
+        "email": "ian.lee@email.com",
+        "borrowed_books": [
+            "B019"
+        ],
+        "password": "H6v7bQp2",
+        "admin": false
+    }
+]
