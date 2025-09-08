@@ -23,7 +23,6 @@ def login(users):
     return None
 
 def menu(user):
-    print(user) # debug message
     if user["admin"]:
         print(f"Welcome Administrator {user['name']}")
         m.staffMenu()
