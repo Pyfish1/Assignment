@@ -4,6 +4,7 @@ import userManagement as um
 import bookTransactions as bt
 import bookBorrowing as bb
 import viewingHistory as vh
+import searchAndInquiry as sai
 
 
 def staffMenu():
@@ -23,7 +24,7 @@ def staffMenu():
                 case 1: main.clear(); bm.bookManagement(); break
                 case 2: main.clear(); um.userManagement(); break
                 case 3: main.clear(); bt.bookTransactions(); break
-                case 4: main.clear(); searchAndInquiry(); break
+                case 4: main.clear(); sai.searchAndInquiry(); break
                 case 5: main.clear(); reporting(); break
                 case 6: main.clear(); vh.viewingHistory(); break
                 case 0: main.clear(); mainMenu(); break
