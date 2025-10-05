@@ -1,10 +1,7 @@
 import os
 import json
 import menu as m
-
-def loadUsers(file='json/users.json'):
-    with open(file, 'r') as file:
-        return json.load(file)
+import helper.read as r
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -14,8 +11,8 @@ def login(users):
     print("--- Fantastic Books Library Login ---")
     email = input("Please Enter your email : ").strip(); clear()
     password = input("Please Enter your password : ").strip(); clear()
-    for user in users:
-        if user["email"] == email and user["password"] == password:
+    for user in users: # Loop through every user
+        if r.getEmail(user) == email and r.getPassword(user) == password:
             menu(user)
             return user
     print("Invalid ID or Password")
@@ -23,18 +20,18 @@ def login(users):
     return None
 
 def menu(user):
-    print(user) # debug message
-    if user["admin"]:
-        print(f"Welcome Administrator {user['name']}")
+    print(str(user) + " Debug message") # debug message
+    if r.getAdminStatus(user):
+        print(f"Welcome Administrator {r.getName(user)}")
         m.staffMenu()
     else: 
-        print(f"Welcome Member {user['name']}")
+        print(f"Welcome Member {r.getName(user)}")
         m.memberMenu(user)
 
 
 
 def main():
-    users = loadUsers() 
+    users = r.readUser()
     user = None 
     while not user: 
         user = login(users) 

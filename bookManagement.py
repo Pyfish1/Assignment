@@ -1,6 +1,12 @@
 import main
 import menu as m
 import json
+import csv
+import helper.read as r
+
+books_csv = "csv/books.csv"
+
+
 
 def bookManagement():
     print("Book Management")
@@ -25,32 +31,23 @@ def addBook():
     title = input("Enter book title : ").strip()
     author = input("Enter author name : ").strip()
     isbn = input("Enter ISBN : ").strip()
+    quantity = input("Enter Quantity : ").strip()
 
-    try: 
-        with open('json/books.json', "r") as file:
-            books = json.load(file)
-    except (FileNotFoundError, json.JSONDecodeError):
-        books = []
+    books = r.readBook()
     
     if books:
-        maxID = max(int(book["book_id"][1:]) for book in books if book.get("book_id", "").startswith("B"))
+        maxID = max(int(row[0][1:]) for row in books if row and row[0].startswith("B"))
         newID = f'B{maxID + 1:03d}'
     else:
         newID = 'B001'
     
-    newBook = {
-        "book_id": newID,
-        "title" : title,
-        "author" : author, 
-        "isbn" : isbn,
-        "quantity": 1,
-        "quantity_borrowed": 0,
-        "borrowers" : []
-    }
+    newBook = f"{newID},{title},{author},{isbn},{quantity},0"
 
     books.append(newBook)
-    with open('json/books.json', 'w') as file:
-        json.dump(books, file, indent=2)
+
+    with open(books_csv, 'a') as file:
+        writer = csv.writer(file)
+        writer.writerow(newBook)
 
     print(f"Book added successfully with ID {newID}!")
     input("Press Enter to return to Staff Menu...")
